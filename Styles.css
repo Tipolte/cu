@@ -7,14 +7,14 @@ body {
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(245, 34, 6);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: rgb(247, 82, 71);
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    background: rgb(86, 48, 126);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -33,10 +33,11 @@ p {
     font-size: 20px;
 }
 
-.categoria-videos {
+.categoria.sucessos de bilheteria {
     display: flex;
     overflow-x: auto;
     gap: 10px;
+    color: rgb(rgba(247, 105, 105, 0.63), green, blue)
 }
 
 .categoria {
@@ -45,16 +46,16 @@ p {
     margin-top: 50px;
 }
 
-.categoria-videos img {
+.categoria-shitpost img {
     opacity: 0.5;
     height: 200px;
 }
 
-.categoria-videos img:hover {
+.categoria-shitpost img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid red;
 }
 
 .categoria h2 {
-    color: rgb(42, 122, 228);
+    color: rgb(212, 44, 22);
 }
